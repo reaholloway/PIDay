@@ -28,7 +28,6 @@ public class MyPI {
 
 
   public static String findinPI(String in_) {
-    // boolean found = false;
     String out = "";
     boolean found = false;
     for (int pos = 0; pos < NUMPI - 1 - in_.length(); pos++) {
